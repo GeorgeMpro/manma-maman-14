@@ -1,0 +1,78 @@
+Specify m - array length:
+32000000
+
+Specify k - number of hash functions
+13
+
+Reading values from input file...
+
+Hashing values and making comparisons...
+
+k   |	m         |	n         |	n'        |	P           |	P'
+13  |	32000000  |	1000000   |	1000000   |	0.0000006401|	0.3336920000
+Expected False Positive P=0.0000006401 or 1 in 1562153
+Actual False Positive while checking n' values P'=0.3336920000 (or total  333692).
+
+Running with optimal number of hash functions.
+
+k   |	m         |	n         |	n'        |	P           |	P'
+22  |	32000000  |	1000000   |	1000000   |	0.0000002104|	0.4962930000
+Expected False Positive P=0.0000002104 or 1 in 4752500
+Actual False Positive while checking n' values P'=0.4962930000 (or total  496293).
+
+Report with different m and k values.
+
+k   |	m         |	n         |	n'        |	P           |	P'
+26  |	32000000  |	1000000   |	1000000   |	0.0000002383|	0.5553070000
+Expected False Positive P=0.0000002383 or 1 in 4196857
+Actual False Positive while checking n' values P'=0.5553070000 (or total  555307).
+
+k   |	m         |	n         |	n'        |	P           |	P'
+6   |	32000000  |	1000000   |	1000000   |	0.0000249766|	0.1711160000
+Expected False Positive P=0.0000249766 or 1 in 40037
+Actual False Positive while checking n' values P'=0.1711160000 (or total  171116).
+
+k   |	m         |	n         |	n'        |	P           |	P'
+13  |	64000000  |	1000000   |	1000000   |	0.0000000003|	0.1836060000
+Expected False Positive P=0.0000000003 or 1 in 2147483647
+Actual False Positive while checking n' values P'=0.1836060000 (or total  183606).
+
+k   |	m         |	n         |	n'        |	P           |	P'
+13  |	96000000  |	1000000   |	1000000   |	0.0000000000|	0.1265170000
+Expected False Positive P=0.0000000000 or 1 in 2147483647
+Actual False Positive while checking n' values P'=0.1265170000 (or total  126517).
+
+
+Press 'q' to quit.
+Press 'n' to rerun with given k,m and new input files.
+Any other key to continue.
+n
+
+Generating unique input values...
+
+k   |	m         |	n         |	n'        |	P           |	P'
+13  |	32000000  |	1000000   |	1000000   |	0.0000006401|	0.3343060000
+Expected False Positive P=0.0000006401 or 1 in 1562153
+Actual False Positive while checking n' values P'=0.3343060000 (or total  334306).
+
+Report with different m and k values.
+
+k   |	m         |	n         |	n'        |	P           |	P'
+26  |	32000000  |	1000000   |	1000000   |	0.0000002383|	0.5566700000
+Expected False Positive P=0.0000002383 or 1 in 4196857
+Actual False Positive while checking n' values P'=0.5566700000 (or total  556670).
+
+k   |	m         |	n         |	n'        |	P           |	P'
+6   |	32000000  |	1000000   |	1000000   |	0.0000249766|	0.1711670000
+Expected False Positive P=0.0000249766 or 1 in 40037
+Actual False Positive while checking n' values P'=0.1711670000 (or total  171167).
+
+k   |	m         |	n         |	n'        |	P           |	P'
+13  |	64000000  |	1000000   |	1000000   |	0.0000000003|	0.1844480000
+Expected False Positive P=0.0000000003 or 1 in 2147483647
+Actual False Positive while checking n' values P'=0.1844480000 (or total  184448).
+
+k   |	m         |	n         |	n'        |	P           |	P'
+13  |	96000000  |	1000000   |	1000000   |	0.0000000000|	0.1269230000
+Expected False Positive P=0.0000000000 or 1 in 2147483647
+Actual False Positive while checking n' values P'=0.1269230000 (or total  126923).
